@@ -183,7 +183,7 @@ class ZLThumbnailViewController: UIViewController {
     
     var showCameraCell: Bool {
         if ZLPhotoConfiguration.default().allowTakePhotoInLibrary, self.albumList.isCameraRoll {
-            return true
+            return false
         }
         return false
     }
