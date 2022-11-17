@@ -225,7 +225,7 @@ class ZLThumbnailPhotoCell: UICollectionViewCell {
         btnSelect.isUserInteractionEnabled = showSelBtn
         btnSelect.isSelected = model.isSelected
         
-        indexLabel.backgroundColor = .zl.indexLabelBgColor
+        indexLabel.backgroundColor = UIColor.appBackgroundColor()
         
         if model.isSelected {
             fetchBigImage()
