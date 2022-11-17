@@ -349,8 +349,8 @@ class ZLThumbnailViewController: UIViewController {
             bottomView.addSubview(limitAuthTipsView!)
         }
         
-        bottomView.addSubview(previewBtn)
-        bottomView.addSubview(originalBtn)
+//        bottomView.addSubview(previewBtn)
+//        bottomView.addSubview(originalBtn)
         bottomView.addSubview(doneBtn)
         
         setupNavView()
