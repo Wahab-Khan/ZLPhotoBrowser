@@ -717,7 +717,7 @@ class ZLThumbnailViewController: UIViewController {
             previewBtn.isEnabled = true
             doneBtn.isEnabled = true
             doneBtn.setTitle(doneTitle, for: .normal)
-            doneBtn.backgroundColor = UIColor.appBackgroundColor()
+            doneBtn.backgroundColor = .zl.oyahAppBarColor
         } else {
             previewBtn.isEnabled = false
             doneBtn.isEnabled = false

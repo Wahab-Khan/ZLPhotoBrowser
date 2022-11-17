@@ -210,6 +210,10 @@ extension ZLPhotoBrowserWrapper where Base: UIColor {
         ZLPhotoUIConfiguration.default().indexLabelBgColor
     }
     
+    static var oyahAppBarColor : UIColor{
+        ZLPhotoUIConfiguration.default().oyahBgColor
+    }
+    
     /// 拍照cell 背景颜色
     static var cameraCellBgColor: UIColor {
         ZLPhotoUIConfiguration.default().cameraCellBgColor
