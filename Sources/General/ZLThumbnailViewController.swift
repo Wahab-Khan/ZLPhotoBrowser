@@ -712,6 +712,8 @@ class ZLThumbnailViewController: UIViewController {
            nav.arrSelectedModels.count > 0
         {
             doneTitle += "(" + String(nav.arrSelectedModels.count) + ")"
+        }else{
+            doneTitle = "Close"
         }
         if nav.arrSelectedModels.count > 0 {
             previewBtn.isEnabled = true
@@ -720,7 +722,7 @@ class ZLThumbnailViewController: UIViewController {
             doneBtn.backgroundColor = .zl.oyahAppBarColor
         } else {
             previewBtn.isEnabled = false
-            doneBtn.isEnabled = false
+            doneBtn.isEnabled = true
             doneBtn.setTitle(doneTitle, for: .normal)
             doneBtn.backgroundColor = .zl.bottomToolViewBtnDisableBgColor
         }
@@ -1404,7 +1406,7 @@ class ZLEmbedAlbumListNavView: UIView {
         addSubview(titleBgControl)
         titleBgControl.addSubview(albumTitleLabel)
         titleBgControl.addSubview(arrow)
-        addSubview(cancelBtn)
+//        addSubview(cancelBtn)
     }
     
     @objc private func titleBgControlClick() {
