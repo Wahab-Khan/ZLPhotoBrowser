@@ -95,7 +95,7 @@ public class ZLPhotoConfiguration: NSObject {
     /// If set to false, gif and livephoto cannot be selected either. Defaults to true.
     @objc public var allowSelectImage = true
     
-    @objc public var allowSelectVideo = true
+    @objc public var allowSelectVideo = false
     
     /// Allow select Gif, it only controls whether it is displayed in Gif form.
     /// If value is false, the Gif logo is not displayed. Defaults to true.
