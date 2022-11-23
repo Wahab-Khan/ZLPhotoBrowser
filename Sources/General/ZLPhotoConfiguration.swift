@@ -44,7 +44,7 @@ public class ZLPhotoConfiguration: NSObject {
     /// Photo sorting method, the preview interface is not affected by this parameter. Defaults to true.
     @objc public var sortAscending = true
     
-    private var pri_maxSelectCount = 9
+    public var pri_maxSelectCount = 5
     /// Anything superior than 1 will enable the multiple selection feature. Defaults to 9.
     @objc public var maxSelectCount: Int {
         get {
