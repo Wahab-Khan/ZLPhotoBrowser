@@ -301,7 +301,7 @@ public class ZLPhotoUIConfiguration: NSObject {
     
     /// The background color of selected cell index label for oyah.
     /// 已选照片右上角序号label背景色
-    @objc public var oyahBgColor: UIColor = .zl.rgba(241, 197, 8)
+    @objc public var oyahBgColor: UIColor = .zl.rgba(70,83,227)
     
     /// The background color of camera cell inside album.
     /// 相册小图界面拍照按钮背景色
